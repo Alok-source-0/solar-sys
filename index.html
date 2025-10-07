@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic Scroll Journey - The Complete Solar System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 flex-wrap">
+                <div class="flex items-center mb-2 lg:mb-0">
+                    <span class="text-xl font-bold text-white tracking-widest">SOLAR SYSTEM</span>
+                </div>
+                <div class="flex space-x-2 nav-links-container">
+                    <a href="#welcome" class="nav-link">Sun</a>
+                    <a href="#mercury" class="nav-link">Mercury</a>
+                    <a href="#venus" class="nav-link">Venus</a>
+                    <a href="#earth" class="nav-link">Earth</a>
+                    <a href="#mars" class="nav-link">Mars</a>
+                    <a href="#jupiter" class="nav-link">Jupiter</a>
+                    <a href="#saturn" class="nav-link">Saturn</a>
+                    <a href="#uranus" class="nav-link">Uranus</a>
+                    <a href="#neptune" class="nav-link">Neptune</a>
+                    <a href="#pluto" class="nav-link">Pluto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <a href="#mercury" class="scroll-indicator">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+        <span class="text-xs">SCROLL</span>
+    </a>
+
+
+    <section id="welcome" class="section-container bg-black">
+        <div class="planet-image-container">
+            <div class="planet-image sun-texture"></div>
+        </div>
+        <div class="content-box max-w-xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-orange-400 mb-4 tracking-tight">
+                THE SUN
+            </h1>
+            <p class="text-indigo-300 text-xl mb-8">
+                The star at the heart of our system. A G-type main-sequence star, holding all its planets in orbit with its immense gravity. Its massive energy output sustains all life on Earth.
+            </p>
+            <a href="https://earth.google.com/web/search/Sun/" target="_blank" class="explore-link">
+                Explore The Sun on Google Earth
+            </a>
+            <a href="#mercury" class="inline-block px-8 py-3 text-lg font-bold text-white bg-indigo-600 rounded-full shadow-lg transition duration-300 hover:bg-indigo-700 hover:scale-105 mt-4">
+                START JOURNEY
+            </a>
+        </div>
+    </section>
+
+    <section id="mercury" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image mercury-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-gray-400 mb-2 block uppercase">Closest Planet: 57.9 Million km | Moons: None</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-gray-300 mb-4 tracking-tighter">
+                MERCURY
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                The smallest planet, scorched by the Sun. Its year lasts only 88 Earth days, but its day lasts 176 Earth days. Its surface is heavily cratered, resembling Earth's Moon, and it has no substantial atmosphere.
+            </p>
+            <a href="https://earth.google.com/web/search/Mercury/" target="_blank" class="explore-link">
+                Explore Mercury on Google Earth
+            </a>
+            <a href="#venus" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Venus →
+            </a>
+        </div>
+    </section>
+
+    <section id="venus" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image venus-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-yellow-400 mb-2 block uppercase">The Hottest Planet | Moons: None</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-yellow-500 mb-4 tracking-tighter">
+                VENUS
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                Shrouded in thick, toxic clouds primarily composed of sulfuric acid. Venus is the hottest planet ($475^\circ C$) due to a runaway greenhouse effect. It rotates backward (retrograde) and extremely slowly.
+            </p>
+            <a href="https://earth.google.com/web/search/Venus/" target="_blank" class="explore-link">
+                Explore Venus on Google Earth
+            </a>
+            <a href="#earth" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Earth →
+            </a>
+        </div>
+    </section>
+
+    <section id="earth" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image earth-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-sky-400 mb-2 block uppercase">The Habitable Zone | Moons: 1 (The Moon)</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-green-300 mb-4 tracking-tighter">
+                PLANET EARTH
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                Our Blue Marble, the only astronomical object known to harbor life. Its single moon stabilizes our planetary tilt, creating the conditions for stable seasons and regulating ocean tides.
+            </p>
+            <a href="https://earth.google.com/web/search/Earth/" target="_blank" class="explore-link">
+                Explore Earth on Google Earth
+            </a>
+            <a href="#mars" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Mars →
+            </a>
+        </div>
+    </section>
+
+    <section id="mars" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image mars-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-red-400 mb-2 block uppercase">The Red Planet | Moons: 2 (Phobos and Deimos)</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-red-500 mb-4 tracking-tighter">
+                MARS
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                A cold, dusty world that hosts the Solar System's largest volcano, Olympus Mons. Its two small, irregularly shaped moons are thought to be captured asteroids. Mars is the primary focus for human colonization.
+            </p>
+            <a href="https://earth.google.com/web/search/Mars/" target="_blank" class="explore-link">
+                Explore Mars on Google Earth
+            </a>
+            <a href="#jupiter" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Jupiter →
+            </a>
+        </div>
+    </section>
+
+    <section id="jupiter" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image jupiter-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-yellow-400 mb-2 block uppercase">King of the Solar System | Moons: 95+ Confirmed</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-amber-400 mb-4 tracking-tighter">
+                JUPITER
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                The Gas Giant, large enough to contain all other planets combined. It is famous for its Great Red Spot, a persistent anticyclonic storm larger than Earth. Its four largest moons are Io, Europa, Ganymede, and Callisto.
+            </p>
+            <a href="https://earth.google.com/web/search/Jupiter/" target="_blank" class="explore-link">
+                Explore Jupiter on Google Earth
+            </a>
+            <a href="#saturn" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Saturn →
+            </a>
+        </div>
+    </section>
+
+    <section id="saturn" class="section-container">
+        <div class="planet-image-container ring-planet">
+            <div class="planet-image saturn-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-amber-200 mb-2 block uppercase">The Ringed Jewel | Moons: 146+ Confirmed</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-amber-200 mb-4 tracking-tighter">
+                SATURN
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                Known for its spectacular icy ring system, which spans over $282,000$ $\text{km}$ but is incredibly thin. Its largest moon, Titan, is the only moon with a dense atmosphere and stable liquid on its surface (methane lakes).
+            </p>
+            <a href="https://earth.google.com/web/search/Saturn/" target="_blank" class="explore-link">
+                Explore Saturn on Google Earth
+            </a>
+            <a href="#uranus" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Uranus →
+            </a>
+        </div>
+    </section>
+
+    <section id="uranus" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image uranus-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-teal-400 mb-2 block uppercase">The Sideways Planet | Moons: 27 Known</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-teal-300 mb-4 tracking-tighter">
+                URANUS
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                An ice giant uniquely tilted $98$ degrees on its axis, meaning it orbits the Sun on its side. Its atmosphere is composed of hydrogen, helium, and methane, giving it a characteristic cyan color.
+            </p>
+            <a href="https://earth.google.com/web/search/Uranus/" target="_blank" class="explore-link">
+                Explore Uranus on Google Earth
+            </a>
+            <a href="#neptune" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Neptune →
+            </a>
+        </div>
+    </section>
+
+    <section id="neptune" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image neptune-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-blue-400 mb-2 block uppercase">The Windiest Planet | Moons: 16 Known</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-blue-500 mb-4 tracking-tighter">
+                NEPTUNE
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                The farthest known major planet, a cold ice giant with the fastest sustained winds in the Solar System. Its largest moon, Triton, orbits backward and is one of the coldest objects ever measured.
+            </p>
+            <a href="https://earth.google.com/web/search/Neptune/" target="_blank" class="explore-link">
+                Explore Neptune on Google Earth
+            </a>
+            <a href="#pluto" class="text-base font-semibold text-indigo-400 hover:text-indigo-200 transition block mt-4">
+                Continue to Pluto →
+            </a>
+        </div>
+    </section>
+
+    <section id="pluto" class="section-container">
+        <div class="planet-image-container">
+            <div class="planet-image pluto-texture"></div>
+        </div>
+
+        <div class="content-box">
+            <span class="text-sm font-semibold text-red-300 mb-2 block uppercase">Kuiper Belt Object | Moons: 5 Known</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-pink-300 mb-4 tracking-tighter">
+                PLUTO
+            </h1>
+            <p class="text-lg text-gray-200 mb-6">
+                A dwarf planet in the distant Kuiper Belt. It features icy mountains and plains of nitrogen ice. Its largest moon, Charon, is so large (half its size) that they are often considered a binary system.
+            </p>
+            <a href="https://earth.google.com/web/search/Pluto/" target="_blank" class="explore-link">
+                Explore Pluto on Google Earth
+            </a>
+            <a href="#welcome" class="inline-block px-8 py-3 text-lg font-bold text-white bg-gray-600 rounded-full shadow-lg transition duration-300 hover:bg-gray-700 hover:scale-105 mt-4">
+                BACK TO TOP
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
